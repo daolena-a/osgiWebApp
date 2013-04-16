@@ -68,7 +68,7 @@
                         <Web-ContextPath>/ihm</Web-ContextPath>
                         <!-- By default, nothing is exported -->
                         <Export-Package>*</Export-Package>
-                        <Import-Package>javax.faces.webapp,javax.servlet,javax.servlet.http,*</Import-Package>
+                        <Import-Package>javax.faces,javax.faces.webapp,javax.servlet,javax.servlet.http,*</Import-Package>
 
                     </instructions>
                 </configuration>
