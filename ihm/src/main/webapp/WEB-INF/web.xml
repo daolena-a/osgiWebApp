@@ -8,26 +8,18 @@
 
     <display-name>JavaServerFaces</display-name>
 
-    <!-- Change to "Production" when you are ready to deploy -->
+
     <context-param>
         <param-name>javax.faces.PROJECT_STAGE</param-name>
         <param-value>Production</param-value>
     </context-param>
     <context-param>
-        <!--description>
-            The location where state information is saved. Valid values
-            are 'server' (typically saved in HttpSession) and 'client'
-            (typically saved as a hidden field in the form. Default is
-            server.
-            </description-->
+
         <param-name>javax.faces.STATE_SAVING_METHOD</param-name>
         <param-value>server</param-value>
     </context-param>
     <context-param>
-        <!--description>
-            Number of Views to be stored in the session when Server-Side
-            State Saving is being used. Default is 20.
-            </description-->
+
         <param-name>
             org.apache.myfaces.NUMBER_OF_VIEWS_IN_SESSION
         </param-name>
